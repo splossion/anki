@@ -1,0 +1,50 @@
+[
+    {
+        "title": "鬼滅の刃",
+        "image": "images/kimetsu.png",
+        "quantity": 1016,
+        "link": "https://www.mediafire.com/file/p8wf0uj40kiuhur/kimetsu.apkg/file"
+    },
+    {
+        "title": "HUNTER×HUNTER",
+        "image": "images/hunter.jpg",
+        "quantity": 2642,
+        "link": ""
+    },
+    {
+        "title": "ぼっち・ざ・ろっく!",
+        "image": "images/bocchi.jpg",
+        "quantity": 156,
+        "link": ""
+    },
+    {
+        "title": "NEEDY GIRL OVERDOSE",
+        "image":"images/needy.png",
+        "quantity":235,
+        "link":""
+    },
+    {
+        "title": "SOUL EATER",
+        "image":"images/soul eater.png",
+        "quantity":519,
+        "link":""
+    },
+    {
+        "title": "アカギ",
+        "image":"images/akagi.jpg",
+        "quantity":356,
+        "link":""
+    },
+    {
+        "title": "ピンポン THE ANIMATION",
+        "image":"images/pingpong.png",
+        "quantity":189,
+        "link":""
+    },
+    {
+        "title": "新世紀エヴァンゲリオン",
+        "image":"images/eva.png",
+        "quantity":332,
+        "link":""
+    }
+]
