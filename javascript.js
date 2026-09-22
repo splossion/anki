@@ -6,7 +6,6 @@ async function loadCards() {
 
     data.forEach(anime => {
         const card = document.createElement("div");
-        card.classList.add("card");
 
         card.innerHTML = `
             <a class="anime-card" href="${anime.link}">
