@@ -1,5 +1,11 @@
 [
     {
+        "title": "Core 2k/6k",
+        "image": "images/core 6k.png",
+        "quantity": 6000,
+        "link": "https://www.mediafire.com/file/qwinkh0mkdo2hk6/Core_2k_6k_Optimized_Japanese_Vocabulary.apkg/file"
+    },
+    {
         "title": "鬼滅の刃",
         "image": "images/kimetsu.png",
         "quantity": 1016,
