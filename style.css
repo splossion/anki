@@ -1,38 +1,40 @@
+
 body {
     margin: 0;
     padding: 30px;
-    background: #121212;
-    color: white;
+    background: #0b0812;
+    color: #d8cce8;
     font-family: Arial, sans-serif;
 }
 
 #cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 25px;
+    gap: 22px;
 }
 
 .anime-card {
     display: block;
-    padding: 20px;
-
-    background: #1e1e1e;
-    color: white;
+    padding: 18px;
+    background: #151020;
+    color: #d8cce8;
     text-decoration: none;
+    border: 1px solid #30213f;
 
-    border-radius: 12px;
-
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: 0.25s ease;
 }
 
 .anime-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border-color: #9064bb;
+    background: #1c1429;
 }
 
 .anime-card h2 {
     margin: 0 0 15px;
+    color: #c8a9ed;
     font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .anime-card img {
@@ -40,10 +42,17 @@ body {
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-radius: 8px;
+    filter: brightness(0.8) saturate(0.8);
+    border: 1px solid #382748;
+}
+
+.anime-card:hover img {
+    filter: brightness(0.95) saturate(1.1);
 }
 
 .anime-card p {
     margin: 12px 0 0;
-    color: #aaa;
+    color: #9685a8;
+    font-size: 13px;
+    line-height: 1.7;
 }
